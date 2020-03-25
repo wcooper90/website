@@ -15,7 +15,7 @@
       "zip": "02138"
     },
     "website": "to be determined",
-    "resumedownload":"to be determined",
+    "resumedownload":"https://drive.google.com/file/d/1ZL7Qwsk6TlrY3p23JuqR0XJb0jCAFx3_/view?usp=sharing",
     "social":[
       {
         "name":"facebook",
@@ -111,15 +111,31 @@
       }
     ]
   },
-  "testimonials":{
-    "testimonials":[
+  "portfolio":{
+    "projects": [
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
+        "title":"My Blocking Group",
+        "category":"click to enlarge",
+        "image":"bruh2.jpg",
+        "url":"https://photos.app.goo.gl/mYu4qzkZ6ScgGuxTA"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "title":"Me and Mai",
+        "category":"click to enlarge",
+        "image":"bruh3.jpg",
+        "url":"https://photos.app.goo.gl/nVPngpGys1QoYHvYA"
+      },
+      {
+        "title":"High School Prom",
+        "category":"click to enlarge",
+        "image":"bruh1.jpg",
+        "url":"https://photos.app.goo.gl/RrvVcHf4iu7T2tfV9"
+      },
+      {
+        "title":"Me with an Otter on My Head",
+        "category":"click to enlarge",
+        "image":"bruh4.jpg",
+        "url":"https://photos.app.goo.gl/acMrnQfpBcR2jiCg6"
       }
     ]
   }

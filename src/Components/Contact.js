@@ -27,7 +27,7 @@ class Contact extends Component {
 
             <div className="ten columns">
 
-                  <p className="lead">{message}</p>
+                  <div className="message">{message}</div>
 
             </div>
 
@@ -91,14 +91,14 @@ class Contact extends Component {
                   <h4 className="widget-title">Credit for this website: </h4>
                   <ul id="twitter">
                      <li>
-                        <span>
+                        <p className="address">
                         Copyright 2017 Tim Baker: https://github.com/tbakerx
-                        </span>
+                        </p>
                      </li>
                      <li>
-                        <span>
+                        <p className="address">
                         Design by Styleshout: https://www.styleshout.com/
-                        </span>
+                        </p>
                      </li>
                   </ul>
 		         </div>

@@ -60,13 +60,12 @@ header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
-   letter-spacing: -2px;
-   margin: 0 auto 18px auto;
+   margin: 0 auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   color: #815353;
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
@@ -83,6 +82,18 @@ header .banner-text hr {
 }
 
 /* header social links */
+
+header div .delay {
+  animation: fadeInAnimation ease 2.4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% { opacity:0; }
+  66% { opacity:0; }
+  100% { opacity:1; }
+}
+
 header .social {
    margin: 24px 0;
    padding: 0;
@@ -140,7 +151,7 @@ header .scrolldown a:hover { color: #11ABB0; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+.opaque { background-color: #41B3A3; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -169,7 +180,7 @@ ul#nav li a {
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
-   color: #fff;
+   color: #2a1506;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -179,7 +190,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #f6b076; }
 
 
 /* ------------------------------------------------------------------ */
@@ -187,7 +198,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #f2b27c;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -203,12 +214,12 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #3c2929;
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 200px;
+   height: 210px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -318,7 +329,7 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #F4A460;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -417,17 +428,26 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
-   padding-top: 90px;
-   padding-bottom: 60px;
+   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   background-attachment: fixed;
+
+   position: relative;
+   min-height: 200px;
+   width: 100%;
+   overflow: hidden;
 }
+
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 32px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   margin-top: 32px;
+   color: #F5FFFA;
+   text-shadow: 0px 4px 8px rgba(0, 0, 0, .8);
 }
 
 /* Portfolio Content */
@@ -643,7 +663,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------
 /* g. Testimonials
 /* ------------------------------------------------------------------ */
-
+/*
 #testimonials {
    background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
    background-size: cover !important;
@@ -678,7 +698,8 @@ call-to-action .button {
    color: #fff;
 }
 
-/*	Blockquotes */
+/*
+
 #testimonials blockquote {
    margin: 0 0px 30px 0px;
    padding-left: 0;
@@ -703,6 +724,7 @@ call-to-action .button {
 #testimonials blockquote cite:before { content: "\2014 \0020"; }
 #testimonials blockquote cite a,
 #testimonials blockquote cite a:visited { color: #8B9798; border: none }
+*/
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
@@ -794,10 +816,10 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: #544c4c;
    padding-top: 96px;
-   padding-bottom: 102px;
-   color: #636363;
+   padding-bottom: 35px;
+   color: #151515;
 }
 #contact .section-head { margin-bottom: 42px; }
 
@@ -808,7 +830,7 @@ call-to-action .button {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #EBEEEE;
+   color: #151515;
    margin-bottom: 6px;
 }
 #contact h1 span { display: none; }
@@ -828,8 +850,8 @@ call-to-action .button {
    color: #EBEEEE;
    margin-bottom: 6px;
 }
-#contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
+#contact p {
+   font: 16px  'opensans-bold', sans-serif;
    padding-right: 3%;
 }
 #contact .header-col { padding-top: 6px; }
@@ -862,7 +884,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #41B3A3;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -883,6 +905,15 @@ call-to-action .button {
 #contact span.required {
 	color: #11ABB0;
 	font-size: 13px;
+}
+#contact div .message {
+  font: 20px 'opensans-semibold', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 48px;
+  margin-top: 32px;
+  color: #F5FFFA;
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, .8);
 }
 #message-warning, #message-success {
    display: none;

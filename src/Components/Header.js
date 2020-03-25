@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactTextTransition, { presets } from 'react-text-transition';
 
 class Header extends Component {
   render() {
@@ -33,12 +34,25 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3>I'm an undergraduate student studying applied math and computer science at Harvard University. </h3>
-            <hr />
-            <ul className="social">
-               {networks}
-            </ul>
+            <h1 className="responsive-headline">
+            <ReactTextTransition
+               text="Will Cooper"
+               spring={presets.wobbly}
+               delay={800}
+               inline="false"
+             />
+             </h1>
+             <br></br>
+            <div class="delay">
+              <h3>
+                I'm an undergraduate student studying applied math and computer science at Harvard University. </h3>
+              <hr />
+            </div>
+            <div class="delay">
+              <ul className="social">
+                 {networks}
+              </ul>
+            </div>
          </div>
       </div>
 
