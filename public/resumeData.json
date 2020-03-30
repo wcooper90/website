@@ -39,7 +39,7 @@
       },
       {
         "name":"youtube",
-        "url":"https://www.youtube.com/channel/UCSd61HiwT8Y01IZTbyo00hQ?view_as=subscriber",
+        "url":"https://www.youtube.com/channel/UCSd61HiwT8Y01IZTbyo00hQ",
         "className":"fa fa-youtube"
       }
     ]
@@ -117,7 +117,7 @@
         "title":"My Blocking Group",
         "category":"click to enlarge",
         "image":"bruh2.jpg",
-        "url":"https://photos.app.goo.gl/mYu4qzkZ6ScgGuxTA"
+        "url":"https://photos.app.goo.gl/RrvVcHf4iu7T2tfV9"
       },
       {
         "title":"Me and Mai",
@@ -129,13 +129,13 @@
         "title":"High School Prom",
         "category":"click to enlarge",
         "image":"bruh1.jpg",
-        "url":"https://photos.app.goo.gl/RrvVcHf4iu7T2tfV9"
+        "url":"https://photos.app.goo.gl/acMrnQfpBcR2jiCg6"
       },
       {
         "title":"Me with an Otter on My Head",
         "category":"click to enlarge",
         "image":"bruh4.jpg",
-        "url":"https://photos.app.goo.gl/acMrnQfpBcR2jiCg6"
+        "url":"https://photos.app.goo.gl/mYu4qzkZ6ScgGuxTA"
       }
     ]
   }
