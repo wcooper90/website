@@ -3,6 +3,7 @@ import ReactTextTransition, { presets } from 'react-text-transition';
 
 class Header extends Component {
   render() {
+    const hStyle = { color: '#fad5b9' };
 
     if(this.props.data){
       var name = this.props.data.name;
@@ -35,12 +36,14 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">
-            <ReactTextTransition
-               text="Will Cooper"
-               spring={presets.wobbly}
-               delay={800}
-               inline="false"
-             />
+              <p style={hStyle}>
+                <ReactTextTransition
+                   text="Will Cooper"
+                   spring={presets.wobbly}
+                   delay={800}
+                   inline="false"
+                 />
+              </p>
              </h1>
              <br></br>
             <div class="delay">

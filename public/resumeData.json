@@ -15,7 +15,7 @@
       "zip": "02138"
     },
     "website": "to be determined",
-    "resumedownload":"https://drive.google.com/file/d/1ZL7Qwsk6TlrY3p23JuqR0XJb0jCAFx3_/view?usp=sharing",
+    "resumedownload":"https://docs.google.com/document/d/1W8ah8NGLIKlzWROKXQIGV53yP7LylOwTsKkcVD_Y6eQ/edit?usp=sharing",
     "social":[
       {
         "name":"facebook",
@@ -51,33 +51,39 @@
         "school":"Harvard University",
         "degree":"A.B. in Applied Math and Computer Science (in progress)",
         "graduated":"May 2023",
-        "description":"Relevant classes include: CS50, System Programming and Machine Organization, Data Structures and Algorithms, Multivariable Calculus, Linear Algebra and Differential Equations, Web Programming in Python and Javascript. At Harvard I am the co-director of education for Harvard computer Society, I play club hockey and club tennis, sing in the Memorial Church Choir, and volunteer at the nearby soup kitchen, HSHS (Harvard Square Homeless Shelters). "
+        "description":"Relevant classes: CS50, System Programming and Machine Organization, Data Structures and Algorithms, Multivariable Calculus, Linear Algebra and Differential Equations, Web Programming in Python and Javascript. At Harvard I am the co-director of education for Harvard computer Society, I play club hockey and club tennis, sing in the Memorial Church Choir, and volunteer at the nearby soup kitchen, HSHS (Harvard Square Homeless Shelters). "
       },
       {
         "school":"Cambridge Rindge and Latin School",
         "degree":"High School",
         "graduated":"June 2019",
-        "description":"Played hockey and tennis (varsity captain), Aerospace engineering club, president of Asian club"
+        "description":"Played hockey and tennis (varsity captain), Aerospace engineering club, president of Asian club."
       }
     ],
     "work":[
       {
+        "company":"Raytheon",
+        "title":"Machine Learning/Data Science Intern ",
+        "years":"June 2020 - August 2020",
+        "description":"Machine learning/data science intern on Raytheon’s Advanced Analytics team, responsible for recalibrating Keras models for image classification of different types of radar chips. Studying the effects of “ensembling,” or combining results of many convolutional models to further increase accuracy. "
+      },
+      {
         "company":"Envel.ai",
         "title":"Data Science Intern",
-        "years":"February 2020 - present",
-        "description":"Responsible for manipulation of large bank transaction datasets for machine learning purposes. Make use of natural language processing, pandas (dataframes), and matplotlib (Python plotting)"
+        "years":"February 2020 - April 2020",
+        "description":"Responsible for manipulation of large bank transaction datasets for machine learning purposes. Made use of natural language processing, pandas (dataframes), and matplotlib (Python plotting)."
       },
       {
         "company":"Harvard Smithsonian Center for Astrophysics",
         "title":"Astrophysics Intern",
         "years":"September 2018 - May 2019",
-        "description":"Developed open source code for simulation of celestial n-body problems, focusing specifially on Alpha Centauri. Created Python classes to generate, statistically analyze, plot and animate data produced from simulations"
+        "description":"Developed open source code for simulation of celestial n-body problems, focusing specifially on Alpha Centauri. Created Python classes to generate, statistically analyze, plot and animate data produced from simulations."
       },
       {
         "company":"Harvard Initiative for the Science of the Human Past",
         "title":"Web Developler Intern",
         "years":"October 2019 - January 2020",
-        "description":"Revamped the study's website, added functionality and increased performance. Created interactive maps using Javascript (Arcgis JS)"
+        "description":"Revamped the study's website, added functionality and increased performance. Created interactive maps using Javascript (Arcgis JS)."
       }
     ],
     "skills":[
