@@ -1,24 +1,27 @@
 {
-  "name": "personalportfolio",
+  "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "10.2.0"
-  },
   "dependencies": {
-    "jquery": "^3.2.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-ga": "^2.3.5",
-    "react-scripts": "2.0.3",
-    "react-spring": "8.0.27",
-    "react-text-transition": "^1.0.2"
+    "gh-pages": "^2.0.1",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "2.1.5",
+    "styled-components": "^5.2.1",
+    "travis": "^0.1.1",
+    "yarn": "^1.13.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
   },
   "browserslist": [
     ">0.2%",
