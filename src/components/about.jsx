@@ -19,13 +19,17 @@ export default class About extends Component {
                      <li>CS50, Introduction to Computer Science </li>
                      <li>CS61, Systems Programming and Machine Organization </li>
                      <li>CS124, Data Structures and Algorithms </li>
-                     <li>CS242, Computing at Scale (Fall 2022) </li>
-                     <li>CS243, Networks (Fall 2022) </li>
+                     <li>CS182, Artificial Intelligence </li>
+                     <li>CS229r, Topics in Theoretical Computer Science: Biology and Complexity (Spring 2023)</li>
+                     <li>CS242, Computing at Scale </li>
+                     <li>CS243, Networks </li>
                      <li>CS260r, Close Readings in Software (Distributed Systems)</li>
+                     <li>CS262, Distributed Systems (Spring 2023) </li>
                      <li>CS286, Multi-Agent Systems</li>
                      <li>Math 21a, Multivariable Calculus</li>
                      <li>Math 21b, Linear Algebra and Differential Equations </li>
-                     <li>AM 120, Linear Algebra and Big Data</li>
+                     <li>AM115, Mathematical Modeling (Spring 2023) </li>
+                     <li>AM120, Linear Algebra and Big Data</li>
                      <li>AM121, Optimization and Mathematical Programming</li>
                      <li>STAT110, Statistics and Probability</li>
                      <li>STAT E-150, Intermediate Statistics: Methods and Modeling</li>
@@ -34,10 +38,7 @@ export default class About extends Component {
                      <li>CSCI E-33A, Web Programming with Python and Javascript</li>
                      <li>MGMT E-2000, Principles of Finance</li>
                      </p>
-                     <p>Beyond studying math, computer science, and the environment, at Harvard College I'm the president of <a href='https://www.hcs.harvard.edu/contact'>Harvard Computer Society </a>
-                      (previously director of Education 2019-2021),
-                     where I manage a number of subcomittees with a common goal of trying to improve the CS community at Harvard. I play club hockey and club tennis. I sang for two years in the memorial church choir, and
-                       am now considering dropping that to audition as a bass guitarist for the Hasty Pudding theatrical band. </p>
+                     <p>I also play club hockey and club tennis! I sang for two years in the memorial church choir, and am now a bass guitarist for the Hasty Pudding theatrical band. </p>
                     </div>
                 </div>
                 </div>

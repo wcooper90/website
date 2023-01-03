@@ -16,6 +16,10 @@ import Bowling from './photos/8.jpg'
 import Met from './photos/5-31.PNG'
 import Conway from './photos/5-12.PNG'
 import X from './photos/12-2.jpg'
+import HarvYale from './photos/16.jpg'
+import GameNight from './photos/14.jpg'
+import Kds from './photos/13.jpg'
+import Pudding from './photos/15.jpg'
 import '../index.css'
 
 export default class Images extends Component {
@@ -26,6 +30,38 @@ export default class Images extends Component {
         <br />
           <h2> Photos!</h2>
         </C1>
+        <C21>
+        <Card>
+          <Image src={HarvYale} />
+          <Name>Harvard Yale Tailgate </Name>
+          <Bio>
+            Nov 19th, 2022
+          </Bio>
+        </Card>
+          <Card>
+            <Image src={GameNight} />
+            <Name>Game Night</Name>
+            <Bio>
+              Nov 17th, 2022
+            </Bio>
+          </Card>
+        </C21>
+        <C12>
+          <Card>
+            <Image src={Pudding} />
+            <Name>Hasty Pudding Initiation</Name>
+            <Bio>
+              Oct 29th, 2022
+            </Bio>
+          </Card>
+          <Card>
+            <Image src={Kds} />
+            <Name>Kirkland Drama Society </Name>
+            <Bio>
+              Oct 21st, 2022
+            </Bio>
+          </Card>
+        </C12>
         <C2>
           <Card>
             <Image src={Met} />

@@ -9,6 +9,7 @@ import MIT from './project_photos/MIT.JPG'
 import CSV from './project_photos/CSV.PNG'
 import CS286 from './project_photos/CS286.PNG'
 import CS260 from './project_photos/CS260.PNG'
+import Lsh from './project_photos/lsh.JPG'
 
 
 export default class Projects extends Component {
@@ -22,12 +23,22 @@ export default class Projects extends Component {
         </Container3>
         <C2>
           <Card>
+            <Image src={Lsh} />
+            <Name></Name>
+            <Bio>
+              Adapting Locality Sensitive Hashing for Higher Efficiency and Safer Machine Learning
+            </Bio>
+          </Card>
+          <Card>
             <Image src={CS286} />
             <Name></Name>
             <Bio>
               Probabilistic Sampling Methods and Collision Avoidance for Robot Swarms in Mass Casualty Incidents (MCI)
             </Bio>
           </Card>
+
+        </C2>
+        <C2>
           <Card>
             <Image src={CS260} />
             <Name></Name>
@@ -35,8 +46,6 @@ export default class Projects extends Component {
               The Effects of Virtualization on Apache Spark
             </Bio>
           </Card>
-        </C2>
-        <C2>
           <Card>
             <Image src={Satellite} />
             <Name></Name>
@@ -44,6 +53,8 @@ export default class Projects extends Component {
               Surface Coverage Classification
             </Bio>
           </Card>
+        </C2>
+        <C2>
           <Card>
             <Image src={Nbrief} />
             <Name></Name>
@@ -51,8 +62,6 @@ export default class Projects extends Component {
               nBrief: Research Productivity Enhancement
             </Bio>
           </Card>
-        </C2>
-        <C2>
           <Card>
             <Image src={Astro} />
             <Name></Name>
@@ -60,6 +69,8 @@ export default class Projects extends Component {
               n-body Astroid Trajectories
             </Bio>
           </Card>
+        </C2>
+        <C2>
           <Card>
             <Image src={MIT} />
             <Name></Name>
@@ -67,8 +78,6 @@ export default class Projects extends Component {
               MIT Eneryhack: 2019 4th place, 2020 3rd place
             </Bio>
           </Card>
-        </C2>
-        <C2>
           <Card>
             <Image src={Cambridge} />
             <Name></Name>
@@ -76,6 +85,8 @@ export default class Projects extends Component {
               Cambridge Local First Social Media Data Analysis
             </Bio>
           </Card>
+        </C2>
+        <C2>
           <Card>
             <Image src={Mai} />
             <Name></Name>
@@ -83,8 +94,6 @@ export default class Projects extends Component {
               Computer Vision Assisted Contour Animation
             </Bio>
           </Card>
-        </C2>
-        <C2>
           <Card>
             <Image src={CSV} />
             <Name></Name>

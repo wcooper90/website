@@ -15,6 +15,18 @@ export default class Timeline extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInBottom">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-4">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>Software Engineering Intern at Bloomberg LP <span>06/2023-08/2023</span></h2>
+                        <p>Project description TBD.
+                          </p>
+                      </div>
+                    </div>
+                  </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInRight">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
@@ -23,7 +35,20 @@ export default class Timeline extends Component {
                       <div className="timeline-label">
                         <h2>Mickey Leland Energy Fellow at the Department of Energy <span>06/2022-08/2022</span></h2>
                         <p>Research Fellow at the Department of Energy, responsible for formulating and solving optimization problems in national bioenergy production and consumption. Creating a
-                        model for simulation, along with a web interface for geographical data visualization. 
+                        model for simulation, along with a web interface for geographical data visualization.
+                          </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-2">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>President of Harvard Computer Society <span>01/2022-12/2022</span></h2>
+                        <p>Managed and coordinated activities of seven subcommittees for  <a href='https://www.hcs.harvard.edu/contact'>HCS</a>. Responsibilities included supervising the club’s
+finances, maintaining servers (mailing lists, website hosting) used campus wide and organizing CS community events.
                           </p>
                       </div>
                     </div>
@@ -68,7 +93,7 @@ export default class Timeline extends Component {
                   </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-5">
+                      <div className="timeline-icon color-2">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
@@ -119,6 +144,18 @@ export default class Timeline extends Component {
                       </div>
                     </div>
                   </article>
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-2">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>Director of Education at Harvard Computer Society<span> 01/2020-12/2021</span></h2>
+                        <p>Taught elementary workshops to Harvard undergraduates as part of the HCS comp for 4 semesters. Topics included data visualization, web scraping, web development, and machine learning.
+                        </p>
+                      </div>
+                    </div>
+                  </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
@@ -138,8 +175,6 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>College at Harvard University <span> 09/2019-present</span></h2>
-                        <p>Grateful to be here.
-                        </p>
                       </div>
                     </div>
                   </article>
@@ -150,8 +185,6 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>High School at Cambridge Rindge and Latin School <span> 09/2015-06/2019</span></h2>
-                        <p>Cambridge's only public high school. Had a great experience.
-                        </p>
                       </div>
                     </div>
                   </article>

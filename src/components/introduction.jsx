@@ -29,7 +29,7 @@ export default class Introduction extends Component {
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
-                          <h1>Hey! <br />I'm Will. </h1>
+                          <h1>Welcome to my site. </h1>
                           <p><a className="btn btn-primary btn-learn" href="/projects" rel="noopener noreferrer">View Projects <i className="icon-briefcase3" /></a></p>
                         </div>
                       </div>
@@ -44,7 +44,7 @@ export default class Introduction extends Component {
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
-                          <h1>Hey! <br />I'm Will. </h1>
+                          <h1><span role='img' aria-label="Love">&#128151;</span></h1>
                           <p><a className="btn btn-primary btn-learn" href="/photos" target="_blank" rel="noopener noreferrer">View Photos</a></p>
                         </div>
                       </div>
